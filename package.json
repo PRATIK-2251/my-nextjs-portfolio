@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Created porfolio using Next JS framework and Typescript",
   "main": "index.js",
-  "repository": "",
+  "repository": "https://github.com/PRATIK-2251/portfolio",
   "author": "Pratik Hole",
   "license": "MIT",
   "scripts": {
