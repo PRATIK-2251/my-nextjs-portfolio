@@ -316,7 +316,7 @@ export const seoData: SEODataType = {
   title: 'Pratik Hole',
   description: 'A passionate Front end developer',
   author: 'Pratik Hole',
-  image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
+  image: 'https://avatars.githubusercontent.com/u/80188276?s=96&v=4',
   url: 'porfolio-url',
   keywords: [
     'Pratik',
