@@ -12,27 +12,26 @@ import {
 } from './types/sections';
 
 export const greetings: GreetingsType = {
-  name: 'Hanzla Tauqeer',
-  title: "Hi all, I'm Hanzla",
+  name: 'Pratik Hole',
+  title: "Hi all, I'm Pratik",
   description:
-    "I'm passionate Full Stack web developer having an experience of web applications with Python, Django, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
-  resumeLink:
-    'https://docs.google.com/document/d/1_4RIfbyt4FFHW_bNplnoINQr01neTu7XDeeUlT_2O_k/edit?usp=sharing',
+    "I'm a dedicated web developer with experience in React.js and Next.js, skilled in creating elegant user interfaces with Tailwind CSS. I've also successfully built admin dashboards using React and Reactstrap, demonstrating my expertise in delivering user-friendly solutions.",
+  // resumeLink:'https://docs.google.com/document/d/1_4RIfbyt4FFHW_bNplnoINQr01neTu7XDeeUlT_2O_k/edit?usp=sharing',
 };
 
 export const openSource = {
-  githubUserName: '1hanzla100',
+  githubUserName: 'pratik-2251',
 };
 
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  url: 'https://1hanzla100.github.io/',
-  linkedin: 'https://www.linkedin.com/in/1hanzla100/',
-  github: 'https://github.com/1hanzla100',
-  instagram: 'https://www.instagram.com/__hanzla100',
-  facebook: 'https://www.facebook.com/1hanzla100',
-  twitter: 'https://twitter.com/1hanzla100',
+  // url: '',
+  linkedin: 'https://www.linkedin.com/in/pratik-hole-143a1723a/',
+  github: 'https://github.com/PRATIK-2251',
+  // instagram: '',
+  // facebook: '',
+  twitter: 'https://twitter.com/pratikhole22',
 };
 
 export const skillsSection: SkillsSectionType = {
@@ -40,7 +39,7 @@ export const skillsSection: SkillsSectionType = {
   subTitle: 'CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
   data: [
     {
-      title: 'Full Stack Development',
+      title: 'Front end developement',
       lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
       skills: [
         emoji(
@@ -71,146 +70,161 @@ export const skillsSection: SkillsSectionType = {
           iconifyTag: 'vscode-icons:file-type-light-next',
         },
         {
-          skillName: 'Python',
-          iconifyTag: 'logos:python',
+          skillName: 'Typescript',
+          iconifyTag: 'vscode-icons:file-type-typescript',
         },
-        {
-          skillName: 'Django',
-          iconifyTag: 'vscode-icons:file-type-django',
-        },
-
         {
           skillName: 'Redux',
           iconifyTag: 'logos:redux',
         },
         {
+          skillName: 'Jest',
+          iconifyTag: 'logos:jest',
+        },
+        {
           skillName: 'NPM',
           iconifyTag: 'logos:npm-icon',
         },
-        {
-          skillName: 'Yarn',
-          iconifyTag: 'logos:yarn',
-        },
+        // {
+        //   skillName: 'Yarn',
+        //   iconifyTag: 'logos:yarn',
+        // },
       ],
     },
-    {
-      title: 'Cloud Infra-Architecture',
-      lottieAnimationFile: '/lottie/skills/cloudinfra.json', // Path of Lottie Animation JSON File
-      skills: [
-        emoji('⚡ Experience of working on multiple cloud platforms'),
-        emoji(
-          '⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases'
-        ),
-        emoji(
-          '⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions'
-        ),
-      ],
-      softwareSkills: [
-        // ? Check README To get icon details
-        {
-          skillName: 'AWS',
-          iconifyTag: 'logos:aws',
-        },
-        {
-          skillName: 'Azure',
-          iconifyTag: 'logos:microsoft-azure',
-        },
-        {
-          skillName: 'Heroku',
-          iconifyTag: 'logos:heroku-icon',
-        },
-        {
-          skillName: 'PostgreSQL',
-          iconifyTag: 'logos:postgresql',
-        },
-        {
-          skillName: 'Github',
-          iconifyTag: 'akar-icons:github-fill',
-        },
-        {
-          skillName: 'Docker',
-          iconifyTag: 'logos:docker-icon',
-        },
-        {
-          skillName: 'Github Actions',
-          iconifyTag: 'logos:github-actions',
-        },
-        {
-          skillName: 'Cloudinary',
-          iconifyTag: 'logos:cloudinary',
-        },
-        {
-          skillName: 'Nginx',
-          iconifyTag: 'logos:nginx',
-        },
-        {
-          skillName: 'Sentry',
-          iconifyTag: 'logos:sentry-icon',
-        },
-      ],
-    },
-    {
-      title: 'Blockchain',
-      lottieAnimationFile: '/lottie/skills/ethereum.json', // Path of Lottie Animation JSON File
-      skills: [
-        emoji(
-          '⚡ Experience in developing Smart Contract using Solidity & Ethereum'
-        ),
-        emoji(
-          '⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura'
-        ),
-        emoji(
-          '⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles'
-        ),
-        emoji('⚡ Developing NFT Smart Contracts using ERC-721 Token Standard'),
-        emoji(
-          '⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS'
-        ),
-      ],
-      softwareSkills: [
-        {
-          skillName: 'Ethereum',
-          iconifyTag: 'logos:ethereum',
-        },
-        {
-          skillName: 'Solidity',
-          iconifyTag: 'logos:solidity',
-        },
-        {
-          skillName: 'Web3js',
-          iconifyTag: 'logos:web3js',
-        },
-        {
-          skillName: 'Metamask',
-          iconifyTag: 'logos:metamask-icon',
-        },
-        {
-          skillName: 'Ganache',
-          iconifyTag: 'logos:ganache-icon',
-        },
-      ],
-    },
+    // {
+    //   title: 'Cloud Infra-Architecture',
+    //   lottieAnimationFile: '/lottie/skills/cloudinfra.json', // Path of Lottie Animation JSON File
+    //   skills: [
+    //     emoji('⚡ Experience of working on multiple cloud platforms'),
+    //     emoji(
+    //       '⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases'
+    //     ),
+    //     emoji(
+    //       '⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions'
+    //     ),
+    //   ],
+    //   softwareSkills: [
+    //     // ? Check README To get icon details
+    //     {
+    //       skillName: 'AWS',
+    //       iconifyTag: 'logos:aws',
+    //     },
+    //     {
+    //       skillName: 'Azure',
+    //       iconifyTag: 'logos:microsoft-azure',
+    //     },
+    //     {
+    //       skillName: 'Heroku',
+    //       iconifyTag: 'logos:heroku-icon',
+    //     },
+    //     {
+    //       skillName: 'PostgreSQL',
+    //       iconifyTag: 'logos:postgresql',
+    //     },
+    //     {
+    //       skillName: 'Github',
+    //       iconifyTag: 'akar-icons:github-fill',
+    //     },
+    //     {
+    //       skillName: 'Docker',
+    //       iconifyTag: 'logos:docker-icon',
+    //     },
+    //     {
+    //       skillName: 'Github Actions',
+    //       iconifyTag: 'logos:github-actions',
+    //     },
+    //     {
+    //       skillName: 'Cloudinary',
+    //       iconifyTag: 'logos:cloudinary',
+    //     },
+    //     {
+    //       skillName: 'Nginx',
+    //       iconifyTag: 'logos:nginx',
+    //     },
+    //     {
+    //       skillName: 'Sentry',
+    //       iconifyTag: 'logos:sentry-icon',
+    //     },
+    //   ],
+    // },
+    // {
+    //   title: 'Blockchain',
+    //   lottieAnimationFile: '/lottie/skills/ethereum.json', // Path of Lottie Animation JSON File
+    //   skills: [
+    //     emoji(
+    //       '⚡ Experience in developing Smart Contract using Solidity & Ethereum'
+    //     ),
+    //     emoji(
+    //       '⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura'
+    //     ),
+    //     emoji(
+    //       '⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles'
+    //     ),
+    //     emoji('⚡ Developing NFT Smart Contracts using ERC-721 Token Standard'),
+    //     emoji(
+    //       '⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS'
+    //     ),
+    //   ],
+    //   softwareSkills: [
+    //     {
+    //       skillName: 'Ethereum',
+    //       iconifyTag: 'logos:ethereum',
+    //     },
+    //     {
+    //       skillName: 'Solidity',
+    //       iconifyTag: 'logos:solidity',
+    //     },
+    //     {
+    //       skillName: 'Web3js',
+    //       iconifyTag: 'logos:web3js',
+    //     },
+    //     {
+    //       skillName: 'Metamask',
+    //       iconifyTag: 'logos:metamask-icon',
+    //     },
+    //     {
+    //       skillName: 'Ganache',
+    //       iconifyTag: 'logos:ganache-icon',
+    //     },
+    //   ],
+    // },
   ],
 };
 
 export const SkillBars: SkillBarsType[] = [
   {
-    Stack: 'Frontend/Design', //Insert stack or technology you have experience in
-    progressPercentage: '90', //Insert relative proficiency in percentage
+    Stack: 'Next JS', //Insert stack or technology you have experience in
+    progressPercentage: '60', //Insert relative proficiency in percentage
   },
   {
-    Stack: 'Backend',
+    Stack: 'React',
+    progressPercentage: '80',
+  },
+  {
+    Stack: 'Redux toolkit',
     progressPercentage: '70',
   },
   {
-    Stack: 'Programming',
+    Stack: 'Javascript',
     progressPercentage: '60',
+  },
+  {
+    Stack: 'Typescript',
+    progressPercentage: '30',
+  },
+  {
+    Stack: 'Tailwind CSS',
+    progressPercentage: '50',
+  },
+  {
+    Stack: 'Unit Testing',
+    progressPercentage: '30',
   },
 ];
 
 export const educationInfo: EducationType[] = [
   {
-    schoolName: 'Harvard University',
+    schoolName: 'Pune University',
     subHeader: 'Master of Science in Computer Science',
     duration: 'September 2017 - April 2019',
     desc: 'Participated in the research of XXX and published 3 papers.',
@@ -259,26 +273,26 @@ export const experience: ExperienceType[] = [
 
 export const projects: ProjectType[] = [
   {
-    name: 'developer-portfolio',
-    desc: 'Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.',
-    github: 'https://github.com/1hanzla100/developer-portfolio',
-    link: 'https://developer-portfolio-1hanzla100.vercel.app/',
+    name: 'Netflix Clone',
+    desc: "Created a Netflix clone using React and Bootstrap, replicating the popular streaming platform's user interface and functionality.",
+    // github: 'https://github.com/projectURL',
+    link: 'https://movieswebseries.netlify.app/',
   },
-  {
-    name: 'AtlasMart',
-    desc: 'With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.',
-    github: 'https://github.com/1hanzla100/Django-React-Marketplace',
-  },
-  {
-    name: 'Technota (Forum)',
-    desc: 'Get hands-on experience in technical skills with Technota',
-    github: 'https://github.com/1hanzla100/django-react-forum',
-  },
-  {
-    name: 'Shopaza (Ecommerce)',
-    desc: 'Now your reach to all your favorite entertainment and luxury items is just one touch apart',
-    github: 'https://github.com/1hanzla100/Django-ecommerce',
-  },
+  // {
+  //   name: 'AtlasMart',
+  //   desc: 'With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.',
+  //   github: 'https://github.com/',
+  // },
+  // {
+  //   name: 'Technota (Forum)',
+  //   desc: 'Get hands-on experience in technical skills with Technota',
+  //   github: 'https://github.com/',
+  // },
+  // {
+  //   name: 'Shopaza (Ecommerce)',
+  //   desc: 'Now your reach to all your favorite entertainment and luxury items is just one touch apart',
+  //   github: 'https://github.com/',
+  // },
 ];
 
 export const feedbacks: FeedbackType[] = [
@@ -295,23 +309,21 @@ export const feedbacks: FeedbackType[] = [
 ];
 
 // option to hide or show the ContactUs component
-export const showContactUs: boolean = true;
+export const showContactUs: boolean = false;
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: 'Hanzla Tauqeer',
-  description:
-    'A passionate Full Stack Web Developer and Blockchain Developer.',
-  author: 'Hanzla Tauqeer',
+  title: 'Pratik Hole',
+  description: 'A passionate Front end developer',
+  author: 'Pratik Hole',
   image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
-  url: 'https://developer-portfolio-1hanzla100.vercel.app',
+  url: 'porfolio-url',
   keywords: [
-    'Hanzla',
-    'Hanzla Tauqeer',
-    '@1hanzla100',
-    '1hanzla100',
+    'Pratik',
+    'Pratik Hole',
     'Portfolio',
-    'Hanzla Portfolio ',
-    'Hanzla Tauqeer Portfolio',
+    'pratik-2251',
+    'Pratik Portfolio ',
+    'Pratik Hole Portfolio',
   ],
 };
